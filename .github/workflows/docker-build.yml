@@ -10,7 +10,7 @@ env:
 jobs:
   variables:
     outputs:
-      tag_name: ${{ steps.var.outputs.tag_name}}
+      repository: ${{ steps.var.outputs.repository}}
     runs-on: "ubuntu-latest"
     steps:
       - name: Setting global variables
